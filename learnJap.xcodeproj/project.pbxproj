@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAA87B0C1BD5D8C600999FBC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA87B0B1BD5D8C600999FBC /* AppDelegate.swift */; };
+		FAA87B0E1BD5D8C600999FBC /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA87B0D1BD5D8C600999FBC /* FirstViewController.swift */; };
+		FAA87B101BD5D8C600999FBC /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA87B0F1BD5D8C600999FBC /* SecondViewController.swift */; };
+		FAA87B131BD5D8C600999FBC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAA87B111BD5D8C600999FBC /* Main.storyboard */; };
+		FAA87B151BD5D8C600999FBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAA87B141BD5D8C600999FBC /* Assets.xcassets */; };
+		FAA87B181BD5D8C600999FBC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAA87B161BD5D8C600999FBC /* LaunchScreen.storyboard */; };
+		FAA87B231BD5D8C600999FBC /* learnJapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA87B221BD5D8C600999FBC /* learnJapTests.swift */; };
+		FAA87B2E1BD5D8C600999FBC /* learnJapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA87B2D1BD5D8C600999FBC /* learnJapUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FAA87B1F1BD5D8C600999FBC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAA87B001BD5D8C600999FBC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAA87B071BD5D8C600999FBC;
+			remoteInfo = learnJap;
+		};
+		FAA87B2A1BD5D8C600999FBC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAA87B001BD5D8C600999FBC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAA87B071BD5D8C600999FBC;
+			remoteInfo = learnJap;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FAA87B081BD5D8C600999FBC /* learnJap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = learnJap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAA87B0B1BD5D8C600999FBC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FAA87B0D1BD5D8C600999FBC /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		FAA87B0F1BD5D8C600999FBC /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		FAA87B121BD5D8C600999FBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FAA87B141BD5D8C600999FBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAA87B171BD5D8C600999FBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FAA87B191BD5D8C600999FBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAA87B1E1BD5D8C600999FBC /* learnJapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = learnJapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAA87B221BD5D8C600999FBC /* learnJapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = learnJapTests.swift; sourceTree = "<group>"; };
+		FAA87B241BD5D8C600999FBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAA87B291BD5D8C600999FBC /* learnJapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = learnJapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAA87B2D1BD5D8C600999FBC /* learnJapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = learnJapUITests.swift; sourceTree = "<group>"; };
+		FAA87B2F1BD5D8C600999FBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAA87B051BD5D8C600999FBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAA87B1B1BD5D8C600999FBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAA87B261BD5D8C600999FBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAA87AFF1BD5D8C600999FBC = {
+			isa = PBXGroup;
+			children = (
+				FAA87B0A1BD5D8C600999FBC /* learnJap */,
+				FAA87B211BD5D8C600999FBC /* learnJapTests */,
+				FAA87B2C1BD5D8C600999FBC /* learnJapUITests */,
+				FAA87B091BD5D8C600999FBC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAA87B091BD5D8C600999FBC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAA87B081BD5D8C600999FBC /* learnJap.app */,
+				FAA87B1E1BD5D8C600999FBC /* learnJapTests.xctest */,
+				FAA87B291BD5D8C600999FBC /* learnJapUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAA87B0A1BD5D8C600999FBC /* learnJap */ = {
+			isa = PBXGroup;
+			children = (
+				FAA87B0B1BD5D8C600999FBC /* AppDelegate.swift */,
+				FAA87B0D1BD5D8C600999FBC /* FirstViewController.swift */,
+				FAA87B0F1BD5D8C600999FBC /* SecondViewController.swift */,
+				FAA87B111BD5D8C600999FBC /* Main.storyboard */,
+				FAA87B141BD5D8C600999FBC /* Assets.xcassets */,
+				FAA87B161BD5D8C600999FBC /* LaunchScreen.storyboard */,
+				FAA87B191BD5D8C600999FBC /* Info.plist */,
+			);
+			path = learnJap;
+			sourceTree = "<group>";
+		};
+		FAA87B211BD5D8C600999FBC /* learnJapTests */ = {
+			isa = PBXGroup;
+			children = (
+				FAA87B221BD5D8C600999FBC /* learnJapTests.swift */,
+				FAA87B241BD5D8C600999FBC /* Info.plist */,
+			);
+			path = learnJapTests;
+			sourceTree = "<group>";
+		};
+		FAA87B2C1BD5D8C600999FBC /* learnJapUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FAA87B2D1BD5D8C600999FBC /* learnJapUITests.swift */,
+				FAA87B2F1BD5D8C600999FBC /* Info.plist */,
+			);
+			path = learnJapUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAA87B071BD5D8C600999FBC /* learnJap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAA87B321BD5D8C600999FBC /* Build configuration list for PBXNativeTarget "learnJap" */;
+			buildPhases = (
+				FAA87B041BD5D8C600999FBC /* Sources */,
+				FAA87B051BD5D8C600999FBC /* Frameworks */,
+				FAA87B061BD5D8C600999FBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = learnJap;
+			productName = learnJap;
+			productReference = FAA87B081BD5D8C600999FBC /* learnJap.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FAA87B1D1BD5D8C600999FBC /* learnJapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAA87B351BD5D8C600999FBC /* Build configuration list for PBXNativeTarget "learnJapTests" */;
+			buildPhases = (
+				FAA87B1A1BD5D8C600999FBC /* Sources */,
+				FAA87B1B1BD5D8C600999FBC /* Frameworks */,
+				FAA87B1C1BD5D8C600999FBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAA87B201BD5D8C600999FBC /* PBXTargetDependency */,
+			);
+			name = learnJapTests;
+			productName = learnJapTests;
+			productReference = FAA87B1E1BD5D8C600999FBC /* learnJapTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FAA87B281BD5D8C600999FBC /* learnJapUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAA87B381BD5D8C600999FBC /* Build configuration list for PBXNativeTarget "learnJapUITests" */;
+			buildPhases = (
+				FAA87B251BD5D8C600999FBC /* Sources */,
+				FAA87B261BD5D8C600999FBC /* Frameworks */,
+				FAA87B271BD5D8C600999FBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAA87B2B1BD5D8C600999FBC /* PBXTargetDependency */,
+			);
+			name = learnJapUITests;
+			productName = learnJapUITests;
+			productReference = FAA87B291BD5D8C600999FBC /* learnJapUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAA87B001BD5D8C600999FBC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "ジエーンポール ソリバ";
+				TargetAttributes = {
+					FAA87B071BD5D8C600999FBC = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					FAA87B1D1BD5D8C600999FBC = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = FAA87B071BD5D8C600999FBC;
+					};
+					FAA87B281BD5D8C600999FBC = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = FAA87B071BD5D8C600999FBC;
+					};
+				};
+			};
+			buildConfigurationList = FAA87B031BD5D8C600999FBC /* Build configuration list for PBXProject "learnJap" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAA87AFF1BD5D8C600999FBC;
+			productRefGroup = FAA87B091BD5D8C600999FBC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAA87B071BD5D8C600999FBC /* learnJap */,
+				FAA87B1D1BD5D8C600999FBC /* learnJapTests */,
+				FAA87B281BD5D8C600999FBC /* learnJapUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAA87B061BD5D8C600999FBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA87B181BD5D8C600999FBC /* LaunchScreen.storyboard in Resources */,
+				FAA87B151BD5D8C600999FBC /* Assets.xcassets in Resources */,
+				FAA87B131BD5D8C600999FBC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAA87B1C1BD5D8C600999FBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAA87B271BD5D8C600999FBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAA87B041BD5D8C600999FBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA87B101BD5D8C600999FBC /* SecondViewController.swift in Sources */,
+				FAA87B0C1BD5D8C600999FBC /* AppDelegate.swift in Sources */,
+				FAA87B0E1BD5D8C600999FBC /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAA87B1A1BD5D8C600999FBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA87B231BD5D8C600999FBC /* learnJapTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAA87B251BD5D8C600999FBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA87B2E1BD5D8C600999FBC /* learnJapUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FAA87B201BD5D8C600999FBC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAA87B071BD5D8C600999FBC /* learnJap */;
+			targetProxy = FAA87B1F1BD5D8C600999FBC /* PBXContainerItemProxy */;
+		};
+		FAA87B2B1BD5D8C600999FBC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAA87B071BD5D8C600999FBC /* learnJap */;
+			targetProxy = FAA87B2A1BD5D8C600999FBC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FAA87B111BD5D8C600999FBC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAA87B121BD5D8C600999FBC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FAA87B161BD5D8C600999FBC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAA87B171BD5D8C600999FBC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAA87B301BD5D8C600999FBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FAA87B311BD5D8C600999FBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAA87B331BD5D8C600999FBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = learnJap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.learnJap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FAA87B341BD5D8C600999FBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = learnJap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.learnJap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FAA87B361BD5D8C600999FBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = learnJapTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.learnJapTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/learnJap.app/learnJap";
+			};
+			name = Debug;
+		};
+		FAA87B371BD5D8C600999FBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = learnJapTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.learnJapTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/learnJap.app/learnJap";
+			};
+			name = Release;
+		};
+		FAA87B391BD5D8C600999FBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = learnJapUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.learnJapUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = learnJap;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		FAA87B3A1BD5D8C600999FBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = learnJapUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.learnJapUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = learnJap;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAA87B031BD5D8C600999FBC /* Build configuration list for PBXProject "learnJap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAA87B301BD5D8C600999FBC /* Debug */,
+				FAA87B311BD5D8C600999FBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAA87B321BD5D8C600999FBC /* Build configuration list for PBXNativeTarget "learnJap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAA87B331BD5D8C600999FBC /* Debug */,
+				FAA87B341BD5D8C600999FBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FAA87B351BD5D8C600999FBC /* Build configuration list for PBXNativeTarget "learnJapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAA87B361BD5D8C600999FBC /* Debug */,
+				FAA87B371BD5D8C600999FBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FAA87B381BD5D8C600999FBC /* Build configuration list for PBXNativeTarget "learnJapUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAA87B391BD5D8C600999FBC /* Debug */,
+				FAA87B3A1BD5D8C600999FBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAA87B001BD5D8C600999FBC /* Project object */;
+}
