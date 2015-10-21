@@ -15,6 +15,8 @@
 		FAA87B181BD5D8C600999FBC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAA87B161BD5D8C600999FBC /* LaunchScreen.storyboard */; };
 		FAA87B231BD5D8C600999FBC /* learnJapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA87B221BD5D8C600999FBC /* learnJapTests.swift */; };
 		FAA87B2E1BD5D8C600999FBC /* learnJapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA87B2D1BD5D8C600999FBC /* learnJapUITests.swift */; };
+		FAA87B3C1BD7F07A00999FBC /* CategorieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA87B3B1BD7F07A00999FBC /* CategorieViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		FAA87B3E1BD7F16800999FBC /* controller in Resources */ = {isa = PBXBuildFile; fileRef = FAA87B3D1BD7F16800999FBC /* controller */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		FAA87B291BD5D8C600999FBC /* learnJapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = learnJapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAA87B2D1BD5D8C600999FBC /* learnJapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = learnJapUITests.swift; sourceTree = "<group>"; };
 		FAA87B2F1BD5D8C600999FBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAA87B3B1BD7F07A00999FBC /* CategorieViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CategorieViewController.swift; path = controller/CategorieViewController.swift; sourceTree = "<group>"; };
+		FAA87B3D1BD7F16800999FBC /* controller */ = {isa = PBXFileReference; lastKnownFileType = folder; path = controller; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				FAA87B0D1BD5D8C600999FBC /* FirstViewController.swift */,
 				FAA87B0F1BD5D8C600999FBC /* SecondViewController.swift */,
 				FAA87B111BD5D8C600999FBC /* Main.storyboard */,
+				FAA87B3B1BD7F07A00999FBC /* CategorieViewController.swift */,
+				FAA87B3D1BD7F16800999FBC /* controller */,
 				FAA87B141BD5D8C600999FBC /* Assets.xcassets */,
 				FAA87B161BD5D8C600999FBC /* LaunchScreen.storyboard */,
 				FAA87B191BD5D8C600999FBC /* Info.plist */,
@@ -195,6 +201,7 @@
 				TargetAttributes = {
 					FAA87B071BD5D8C600999FBC = {
 						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = RWDZ34Z57Z;
 					};
 					FAA87B1D1BD5D8C600999FBC = {
 						CreatedOnToolsVersion = 7.0.1;
@@ -233,6 +240,7 @@
 			files = (
 				FAA87B181BD5D8C600999FBC /* LaunchScreen.storyboard in Resources */,
 				FAA87B151BD5D8C600999FBC /* Assets.xcassets in Resources */,
+				FAA87B3E1BD7F16800999FBC /* controller in Resources */,
 				FAA87B131BD5D8C600999FBC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,6 +268,7 @@
 			files = (
 				FAA87B101BD5D8C600999FBC /* SecondViewController.swift in Sources */,
 				FAA87B0C1BD5D8C600999FBC /* AppDelegate.swift in Sources */,
+				FAA87B3C1BD7F07A00999FBC /* CategorieViewController.swift in Sources */,
 				FAA87B0E1BD5D8C600999FBC /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -402,10 +411,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = learnJap/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.learnJap;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -413,10 +425,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = learnJap/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.learnJap;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
